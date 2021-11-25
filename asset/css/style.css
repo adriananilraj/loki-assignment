@@ -1,0 +1,314 @@
+@import 'font-family.css';
+
+/* ============ Navbar ==============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    min-height: calc();
+}
+
+.header .row {
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Kaushan Script';
+}
+
+p {
+    color: #000;
+    font-family: 'Farsan', cursive;
+    font-size: 3.3vh;
+}
+
+.logo a {
+    font-family: 'Kaushan Script';
+    text-decoration: none;
+    font-size: 5vh;
+    color: #000;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    font-family: 'Carter One', cursive;
+}
+
+.btn:hover {
+    transform: translateY(-9px);
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(255,82,59);
+    background: linear-gradient(141deg, rgba(255,82,59,1) 0%, rgba(77,18,11,1) 57%);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-size: 2.5vh;
+    transition: ease 1s
+}
+
+.categories {
+    margin: 170px 0;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.col-3 p {
+    font-size: 2vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title span::after {
+    content: '';
+    background: #693632;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+
+}
+
+.col-3:hover {
+    transform: translateY(-5px);
+}
+
+.rating {
+    color: #ff523b;
+}
+
+/* =========== Offer ============= */
+.offer {
+    background-color: #f9f8f6;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+small {
+    color: #555;
+}
+
+.col-2 .btn-1 {
+    display: inline-block;
+    background: rgb(255,82,59);
+    background-color: #e7e7e7;
+    color: #000;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-size: 2.5vh;
+    transition: ease 1s
+}
+
+/* ------------- Testimonial ------------ */
+
+.testimonial {
+    padding-top: 100px;
+
+}
+
+.testimonial .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 img {
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.testimonial .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.icon-quotes {
+    font-size: 34px;
+    color: #1b3e64;
+}
+
+.testimonial .col-3 h3 {
+    font-weight: 600;
+    padding-top: 20px;
+    color: #555;
+    font-size: 17px;
+}
+
+/* --------- Brands ------- */
+
+.brands{
+    margin: 100px auto;
+}
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%)
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+}
+
+/* Footer */
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px;
+}
+
+.footer p {
+    color: #8a8a8a;
+    font-size: 2vh;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
